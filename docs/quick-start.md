@@ -1,11 +1,20 @@
 ---
-sidebar_position: 4
-slug: /backup
+sidebar_position: 1
+slug: /
 ---
 
-# Tutorial Intro
+# Quick Start
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Datatoggle is a *Customer Data Platform*, it provides a unique API to collect data from your website and send it everywhere.
+
+With Datatoggle, anyone can add a destination (like Mixpanel) in a few clicks and without code.
+
+Why Datatoggle ?
+* **API compatible with Segment**
+* **Free**, without limit on users or number of tracked events
+* **Open source**
+* **Serverless**
+
 
 ## Getting Started
 
