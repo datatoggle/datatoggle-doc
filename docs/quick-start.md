@@ -1,20 +1,47 @@
 ---
-sidebar_position: 1
-slug: /
+sidebar_position: 2
+slug: /quick-start
 ---
 
 # Quick Start
 
-Datatoggle is a *Customer Data Platform*, it provides a unique API to collect data from your website and send it everywhere.
+## Add your first destination
 
-With Datatoggle, anyone can add a destination (like Mixpanel) in a few clicks and without code.
+After having created your account and chosen your project name at **[app.datatoggle.com](https://app.datatoggle.com)**, 
+Add a first 
+destination with button `New 
+Destination`.
 
-Why Datatoggle ?
-* **API compatible with Segment**
-* **Free**, without limit on users or number of tracked events
-* **Open source**
-* **Serverless**
+On this documentation, select the chosen destination in the left panel (`Destinations` category) to see how to 
+configure it. Most of the time, you just have to indicate an API key provided by your destination.
 
+Once configured, click on `Enabled` then `Save Settings`.
+
+## Install Datatoggle SDK on your website
+
+1. For now, Datatoggle is only available as a npm package, install it with
+
+```shell
+npm install @datatoggle/datatoggle-sdk
+```
+
+2. On your website, initialize the datatoggle sdk using
+
+````javascript
+import datatoggle from '@datatoggle/datatoggle-sdk'
+
+//...
+
+datatoggle.init("DATATOGGLE_API_KEY")
+````
+
+You will find your `API KEY` on the `Project Overview` section of **[app.datatoggle.com](https://app.datatoggle.com)**
+
+## Track your first event
+
+
+
+-------------------
 
 ## Getting Started
 
