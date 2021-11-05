@@ -57,7 +57,6 @@ analytics.track('Item purchased', {
   item: 'Chair-4624',
   price: 39.99
 });
-
 `````
 
 You are now ready to collect data and send it to your destinations
