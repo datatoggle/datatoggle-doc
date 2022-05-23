@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "datatoggle-b83b6"
+  },
+  "targets": {
+    "datatoggle-b83b6": {
+      "hosting": {
+        "docs": [
+          "docs-datatoggle"
+        ]
+      }
+    }
+  }
+}
